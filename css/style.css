@@ -48,14 +48,12 @@
 }
 
 .card_testimonialOne, .card_testimonialTwo{
-  flex-basis: 1;
   position: relative;
   top: 0;
   left: 0;
   margin: 1rem auto;
   width: 78vw;
-  height: 510px;
-  max-height: 530px;
+  height: 490px;
   overflow: hidden;
   transition: all 2s ease;
 }
@@ -130,20 +128,18 @@
   position: relative;
   grid-area: spaceland;
   width: 16rem;
-  height: 6.4rem;
+  height: 7.4rem;
 }
 
 .icon_curve{
   position: relative;
-  /* top: 38%; */
   margin-top: .5rem;
   left: 20%;
-  /* transform: translate(-51%, -28%); */
   transform: translate(-52%, -28%);
   grid-area: icon2;
   background: url('../images/pattern-curve.svg') no-repeat center center/cover;
   width: 28vw;
-  height: 14vh;
+  height: 16vh;
 }
 
 .left_part .author{
@@ -165,7 +161,7 @@
   background: url('../images/pattern-bg.svg') no-repeat center right/cover;
   background-size: 100% ;
   background-position-y: 4.8rem;
-  transform: translate(-35%, -5%) scale(1.3);
+  transform: translate(-35%, -5%) scale(1.2);
   overflow: visible;
   
   position: relative;
@@ -225,7 +221,7 @@
   position: relative;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -12%) ;
+  transform: translate(-50%, 4%) ;
   width: 80%;
   height: 80%;  
   z-index: 1;
@@ -235,7 +231,7 @@
   position: relative;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -12%) ;
+  transform: translate(-50%, 4%) ;
   width: 80%;
   height: 80%;
   z-index: 1;
@@ -329,7 +325,12 @@ footer{
   }
 
   .card_testimonialOne, .card_testimonialTwo{
-    height: 490px;
+    height: 430px;
+  }
+
+  .icon_curve{
+    left: 14%;
+    height: 14vh;
   }
 }
 
@@ -352,12 +353,7 @@ footer{
   }
 
   .spaceland{
-    height: 4.4rem;
-  }
-  
-  .icon_curve{
-    left: 18%;
-    height: 10vh;
+    height: 5rem;
   }
 
   .img_tanya{
@@ -400,7 +396,7 @@ footer{
   }
 
   .card_testimonialOne, .card_testimonialTwo{
-    height: 380px;
+    height: 310px;
   }
 
   .left_part .author h4{
@@ -419,9 +415,13 @@ footer{
     height: 3rem;
   }
 
+  .spaceland{
+    height: 3rem;
+  }
+
   .icon_curve{
-    left: 16%;
-    height: 8vh;
+    left: 14%;
+    height: 10vh;
   }
 
   .slide_icon{
@@ -470,11 +470,11 @@ footer{
   }
 
   .spaceland{
-    height: 2.8rem;
+    height: 3.5rem;
   }
 
   .icon_curve{
-    left: 14%;
+    left: 10%;
     height: 9vh;
   }
 
@@ -551,7 +551,7 @@ footer{
   }
 
   .spaceland{
-    height: 1.4rem;
+    height: 1.8rem;
   }
 
   .icon_quote{
@@ -910,11 +910,11 @@ footer{
 
 /* orientation landscape */
 
-@media (min-width:820px) and (orientation: landscape) {
+/* @media (max-width:1080px) and (orientation: landscape) {
 
   .card_testimonialOne, .card_testimonialTwo{
     min-height: 100px;
-    height: 330px;
+    height: 400px;
     overflow: hidden;
   }
 
@@ -926,10 +926,10 @@ footer{
     left: 9%;
     height: 12vh;
   }
-}
+} */
 
 
-@media (min-width:600px) and (orientation: landscape) {
+/* @media (min-width:600px) and (orientation: landscape) {
 
   .card_testimonialOne, .card_testimonialTwo{
     min-height: 200px;
@@ -944,4 +944,4 @@ footer{
     left: 9%;
     height: 12vh;
   }
-}
+} */
